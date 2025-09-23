@@ -1,0 +1,33 @@
+/*
+.color1 { #ebf2f2 };
+.color2 { #d0f2e7 };
+.color3 { #bcebdf };
+.color4 { #ade0db };
+.color5 { #d9dbdb }; 
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #30403c;
+    
+}
+main {
+    /* border: 1px solid red ; */
+    width: 100vh;
+    max-width: 250px;
+    margin: 16px auto;
+    text-align: center;
+    padding: 16px 0;
+    background-color: #586965;
+}
+
+main h1 {
+    
+    /* color: #ade0db; */
+    font-size: 42px;
+    color: #a9bcb7; 
+
+}
