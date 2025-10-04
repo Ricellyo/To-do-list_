@@ -5,13 +5,13 @@
 }
 body {
     background-color: #30403c;
-    
+    font-family: Arial, Helvetica, sans-serif; 
 }
 main {
     /* border: 1px solid red ; */
     width: 100vh;
-    max-width: 280px;
-    margin: 16px auto;
+    max-width: 279px;
+    margin: 50px auto;
     text-align: center;
     padding: 16px;
     background-color: #586965;
@@ -21,11 +21,12 @@ h1 {
     /* color: #ade0db; */
     font-size: 42px;
     color: #a9bcb7;
-    font-family: Arial, Helvetica, sans-serif; 
+    
 }
 input {
   border: 2px solid #388674;
-  border-radius: 10px;
+  border-radius: 9px;
+  width: 71%;
   height: 30px;
   outline: none;
 }
@@ -43,3 +44,19 @@ button {
 button:hover {
     background-color: #c1ded7;
 }
+
+button:active {
+    background-color: #586965 ;
+}
+
+main ul {
+    /* width: 99%; */
+    list-style: none;
+}
+main li {
+    border: 2px solid #388674;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
