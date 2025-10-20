@@ -6,6 +6,7 @@
 body {
     background-color: #30403c;
     font-family: Arial, Helvetica, sans-serif; 
+    font-size: 16px;
 }
 main {
     /* border: 1px solid red ; */
@@ -51,12 +52,20 @@ button:active {
 
 main ul {
     /* width: 99%; */
-    list-style: none;
+    list-style-type: none;
 }
 main li {
     border: 2px solid #388674;
     background-color: white;
     border-radius: 5px;
+    padding: 2px;
+    margin: 2px auto;
+    font-weight: bolder;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
-
+span {
+    cursor: pointer;
+}
